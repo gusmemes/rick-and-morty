@@ -1,0 +1,31 @@
+.characterDetailsContainer {
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .character-name {
+    margin-top: 10px;
+  }
+  
+  .character-info {
+    margin: 20px;
+  }
+  
+  .character-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .episodes {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .episodes-title {
+    margin-bottom: 10px;
+  }
+  

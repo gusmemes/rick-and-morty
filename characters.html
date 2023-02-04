@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="card.css">
+    <title>Characters</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./bienvenida.html">Rick and Morty</a>
+        <a class="navbar-brand" href="./characters.html">Characters</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./episodes.html">Episodes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./locations.html">Locations</a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <div class="grupo">
+        <br>
+        <input type="search" name="Search" placeholder="Search" id="">
+        <button class="btn btn-primary">Buscar</button>
+        <br><br>
+    </div>
+
+    <div class="carousel">
+    </div>
+
+
+    <nav aria-label="Page navigation example"><br><br><br>
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="./bienvenida.html" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="./bienvenida.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="./characters.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="./episodes.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="./locations.html">4</a></li>
+            <li class="page-item">
+              <a class="page-link" href="./episodes.html" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+                    
+            </li>
+        </ul>
+    </nav>
+
+    <button onclick="borrarDatos()" class="btn btn-danger m-2" id="borrarDatos">
+        Cerrar sesion
+    </button>
+
+    <script src="characters.js"></script>
+</body>
+
+</html>
